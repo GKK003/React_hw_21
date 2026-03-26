@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import HeaderImg from "../../assets/images/headerimg.png";
+import HeaderImg from "../../../public/images/headerimg.png";
 import Data from "../../Data.json";
 import WhiteDiv from "../__molecules/WhiteDiv";
 
