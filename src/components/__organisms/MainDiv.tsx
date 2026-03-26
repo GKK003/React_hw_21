@@ -50,7 +50,7 @@ function MainDiv() {
                 </span>
                 <button
                   onClick={() => removeFilter(el)}
-                  className="bg-[#5CA5A5] px-3 text-white transition hover:bg-[#2c3a3a]"
+                  className="bg-[#5CA5A5] px-3 text-white transition hover:bg-[#2c3a3a] cursor-pointer"
                 >
                   X
                 </button>
@@ -60,7 +60,7 @@ function MainDiv() {
 
           <button
             onClick={clearFilters}
-            className="font-bold text-[#5CA5A5] underline"
+            className="font-bold text-[#5CA5A5] underline cursor-pointer"
           >
             Clear
           </button>
